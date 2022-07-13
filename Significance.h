@@ -1,3 +1,5 @@
+#ifndef SIGNIFICANCE_H
+#define SIGNIFICANCE_H
 #pragma once
 
 #include "TObject.h"
@@ -51,5 +53,5 @@ public:
 
 };
 
-
+#endif
 

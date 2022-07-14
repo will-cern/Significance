@@ -15,9 +15,7 @@ ROOT_GENERATE_DICTIONARY(G__Significance Significance.h LINKDEF LinkDef.h)
 add_library(Significance SHARED Significance.cpp G__Significance.cxx)
 target_link_libraries(Significance ${ROOT_LIBRARIES})
 
-
-
-install(FILES Significance.h DESTINATION include)
+install(FILES Significance.h DESTINATION include/Significance)
 
 install( FILES ${CMAKE_BINARY_DIR}/libSignificance.rootmap
         ${CMAKE_BINARY_DIR}/libSignificance_rdict.pcm

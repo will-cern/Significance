@@ -1,5 +1,6 @@
 #include "Significance.h"
 #include "RooStats/NumberCountingUtils.h"
+#include "TMath.h"
 
 #include <stdexcept>
 #include <math.h>
